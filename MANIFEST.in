@@ -1,0 +1,7 @@
+include README.md
+include docker-compose.yml
+recursive-include app *
+recursive-include model *
+recursive-include tests *
+global-exclude __pycache__
+global-exclude *.py[cod]
