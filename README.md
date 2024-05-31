@@ -1,5 +1,3 @@
-# ML-Inz-example
-
 This project contains two main components:
 1. A Flask backend serving HTML, CSS, and JavaScript.
 2. A machine learning service using the `suno/bark` to do voice-to-speech
