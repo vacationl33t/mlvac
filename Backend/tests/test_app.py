@@ -9,4 +9,4 @@ def client():
 def test_index(client):
     response = client.get('/')
     assert response.status_code == 200
-    assert b'Query Interface' in response.data  # Обновленный текст, который должен присутствовать в HTML
+    assert b'vacZWER' in response.data  # Обновленный текст, который должен присутствовать в HTML
