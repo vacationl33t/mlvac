@@ -31,7 +31,7 @@ def gen_text(text):
   )
 
   filename = str(uuid.uuid4()) + ".wav"
-  filepath = path + "/app/app/static/voice/" + filename
+  filepath = path + "/Backend/app/static/voice/" + filename
   audio_array = model.generate(**inputs)
   audio_array = audio_array.cpu().numpy().squeeze()
   sample_rate = model.generation_config.sample_rate

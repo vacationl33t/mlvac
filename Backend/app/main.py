@@ -19,7 +19,7 @@ def query():
     data = request.get_json()
     text = data.get('text')
     # Используйте имя сервиса вместо localhost
-    ml_service_url = 'http://127.0.0.1:8000/query/'
+    ml_service_url = 'http://model:8000/query/'
     response = requests.post(ml_service_url, json={
         'text': text,
     })

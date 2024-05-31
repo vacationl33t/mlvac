@@ -2,11 +2,11 @@ version: '3.10'
 
 services:
   backend:
-    build: ./app
+    build: ./Backend
     ports:
       - "8880:80"
     volumes:
-      - ./app/app:/app/app
+      - ./Backend/app:/app/app
 
   ml_service:
     build: ./model
