@@ -17,13 +17,14 @@ setup(
         "requests",
         "diffusers",
         "torch",
+        "scipy"
         "GPUtil",
         "numba",
         "flask-cors"
     ],
     entry_points={
         "console_scripts": [
-            "app = app.app.main:app",
+            "app = Backend.app.main:app",
             "model = model.app.main:app"
         ],
     },
