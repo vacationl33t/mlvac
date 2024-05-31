@@ -6,7 +6,7 @@ setup(
     description="text_to_voice.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    author="Vladislav Kirvyakov",
+    author="Vladislav Kirvyakov_",
     author_email="m1809131@edu.misis.ru",
     url="https://github.com/vacationl33t/mlvac.git",
     packages=find_packages(),
